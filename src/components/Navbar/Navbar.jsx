@@ -3,9 +3,9 @@ import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import { motion } from 'framer-motion';
 
 import { images } from '../../constants';
-import './NavBar.scss';
+import './Navbar.scss';
 
-const NavBar = () => {
+const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
@@ -47,4 +47,4 @@ const NavBar = () => {
   );
 };
 
-export default NavBar;
+export default Navbar;
